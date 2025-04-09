@@ -1,2 +1,3 @@
 # BIQ84
-BIG-IQ 8.4
+
+Notes, build scripts, and associated files for the *Configuring BIG-IQ version 8.4* course.
