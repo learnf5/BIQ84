@@ -4,26 +4,26 @@ Notes, build scripts, and associated files for the *Configuring BIG-IQ version 8
 
 ## Lab VM RAM (GB)
 
-| Lab Number           | bigip1 | bigip2 | bigip17 | bigiq1 | bigiq2 | bigiqdcd | jump | Hack-IT | Kali |  TrainingServer |
-|----------------------|--------|--------|---------|--------|--------|----------|------|---------|------|-----------------|
-| BIQ84-C01L1-AS3      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C01L2-ADVANCE  |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C01L3-DNS      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C01L4-ASM      |      8 |        |       8 |     16 |        |       16 |    4 |       1 |      |             0.5 |
-| BIQ84-C01L5-FIREWALL |      8 |        |       8 |     16 |        |       16 |    4 |         |    1 |             0.5 |
-| BIQ84-C01L6-DOS      |      8 |        |       8 |     16 |        |       16 |    4 |         |    1 |             0.5 |
-| BIQ84-C01L7-APM      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C02L1-SETUP    |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C02L2-ADMIN    |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C02L3-LTM      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C02L4-HA       |      8 |        |       8 |     16 |     16 |       16 |    4 |         |      |             0.5 |
-| BIQ84-C02L5-DSC      |      8 |      8 |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
-| BIQ84-C02L6-ROLES    |      8 |        |       8 |     16 |        |       16 |    4 |         |      |             0.5 |
+| Lab Number           | bigip1 | bigip2 | bigip17 | bigiq1 | bigiq2 | bigiqdcd | jump | Hack-IT | Kali | TrainingServer |
+|----------------------|-------:|-------:|--------:|-------:|-------:|---------:|-----:|--------:|-----:|---------------:|
+| BIQ84-C01L1-AS3      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C01L2-ADVANCE  |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C01L3-DNS      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C01L4-ASM      |      8 |        |       8 |     16 |        |       16 |    4 |       1 |      |            0.5 |
+| BIQ84-C01L5-FIREWALL |      8 |        |       8 |     16 |        |       16 |    4 |         |    1 |            0.5 |
+| BIQ84-C01L6-DOS      |      8 |        |       8 |     16 |        |       16 |    4 |         |    1 |            0.5 |
+| BIQ84-C01L7-APM      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C02L1-SETUP    |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C02L2-ADMIN    |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C02L3-LTM      |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C02L4-HA       |      8 |        |       8 |     16 |     16 |       16 |    4 |         |      |            0.5 |
+| BIQ84-C02L5-DSC      |      8 |      8 |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
+| BIQ84-C02L6-ROLES    |      8 |        |       8 |     16 |        |       16 |    4 |         |      |            0.5 |
 
 ## Lab Name, Duration (hr) and VLANs
 
 | Lab  Number          | Lab Name                           | Lab Duration | Lab Series | Mgmt | External | Internal |
-|----------------------|------------------------------------|--------------|------------|------|----------|----------|
+|----------------------|------------------------------------|-------------:|-----------:|:----:|:--------:|:--------:|
 | BIQ84-C01L1-AS3      | AS3 Application Templates          |           60 |        110 |    X |        X |        X |
 | BIQ84-C01L2-ADVANCE  | AS3 Application Templates Advanced |          180 |        120 |    X |        X |        X |
 | BIQ84-C01L3-DNS      | Managing BIG-IP DNS                |           75 |        130 |    X |        X |        X |
