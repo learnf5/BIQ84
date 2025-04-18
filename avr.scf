@@ -1,0 +1,8 @@
+#TMSH-VERSION: 17.1.0
+
+sys provision avr {
+    level nominal
+}
+sys provision ltm {
+    level nominal
+}

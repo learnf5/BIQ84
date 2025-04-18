@@ -1,0 +1,24 @@
+
+Managing BIG-IP LTM Module
+
+Create and Deploy more LTM objects
+
+when HTTP_REQUEST {
+ if { [IP::client_addr] equals "10.10.X.30" } {
+ HTTP::respond 200 content "Goodbye X"
+ }
+}
+
+AS3 Templates Module
+
+Load one file:
+
+curl -s -k -H "Content-Type: application/json" -X POST -d @AS3-F5-UDP-lb-template-big-iq-default.json http://localhost:8100/cm/global/appsvcs-templates
+
+Load all files:
+
+for json in *.json; do 
+curl -s -k -H "Content-Type: application/json" -X POST -d @$json http://localhost:8100/cm/global/appsvcs-templates ;
+done
+
+
