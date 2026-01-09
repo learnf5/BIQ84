@@ -1,6 +1,6 @@
 # download AS3 template from GitHub and load into bigiq1
 curl --silent https://raw.githubusercontent.com/f5devcentral/f5-big-iq/refs/heads/7.1.0/f5-appsvcs-templates-big-iq/default/json/AS3-F5-HTTP-lb-template-big-iq-default.json --output /tmp/AS3-F5-HTTP-lb-template-big-iq-default.json
-ssh-keyscan -Н 192.168.1.51 >> ~/.ssh/known_hosts
+ssh-keyscan -H 192.168.1.51 >> ~/.ssh/known_hosts
 sshpass -p f5trn001 scp /tmp/AS3-F5-HTTP-lb-template-big-iq-default.json root@192.168.1.51:/var/tmp/AS3-F5-HTTP-lb-template-big-iq-default.jsoก
 sshpass -p f5trn001 ssh root@192.168.1.51 curl -skH "Content-Type: application/json" http://localhost:8100/cm/global/appsvcs-templates -X POST -d @/var/tmp/AS3-F5-HTTP-lb-template-big-iq-default.json | jq .
 
